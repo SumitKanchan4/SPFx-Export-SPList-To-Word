@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "export-2-word-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/export2Word/Export2WordCommandSet.js",
+          "manifest": "./src/extensions/export2Word/Export2WordCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Export2WordCommandSetStrings": "lib/extensions/export2Word/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "splist-2-word",
+    "title": "Export SPList to Word",
+    "id": "4e63f2dc-2b7a-4740-aca8-68290972be92",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Application Extension - Export sharepoint list items to ms word document",
+        "description": "Exports sharepoint list items to ms word document",
+        "id": "a0e15a05-a666-4d71-a5b5-3d0bbc8a766b",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/export2word.sppkg"
+  }
+}
